@@ -1,0 +1,111 @@
+.mainbody {
+    display: block;
+    justify-content: center;
+   
+
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+.Free{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;   
+}
+.EmailStarted,.password,.confirmPassword{
+    display: flex;
+    gap: 8px;
+    width: 100%;
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 14px;
+}
+.EmailAddress,.GetStarted,.Password,.confirmPassword1{
+         width: 500px;
+         height: 50px;
+         /* min-height: 46px; */
+            position: relative;
+            display: inline-flex;
+            vertical-align: middle;
+            justify-content: center;
+            align-items: center;
+            padding:"15px";
+}
+.GetStarted {
+    position: relative;
+    display: inline-flex;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    min-height: 44px;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-radius: 40px;
+    font-size: 14px;
+    line-height: 20px;  
+}
+
+.EmailAddress,.Password,.confirmPassword1{
+    border: 2px solid rgb(0,105,255);
+    text-align: left;
+    font-size: 16px;
+    padding: 10px 14px;
+    border-radius: 8px;
+    appearance: none;   
+}
+.GetStarted {
+    background-color:rgb(0,105,255);
+   font-weight:  700;
+    color: white;
+}
+.inputs {
+             display: flex;
+             justify-content: center;
+             border: 1px solid #dadada;
+             border-radius: 1%;
+             max-width: 550px;
+             height: 530px; 
+             margin-left: 30%;
+             background:white;
+             width: 100%;
+             min-width: 0;
+             border: 1px solid #dadada;
+             border-radius: 6px;
+             background: #ffffff;
+             box-shadow: 0 1px 5px rgb(0 74 116 / 15%);         
+  }
+  .between {
+     margin-top: 4%;   
+  }
+
+.divide1 {
+    display: flex;
+    padding-left: 45px;
+}
+.Already,.EmailStarted{
+    display: flex; 
+   padding-right: 10px;
+   margin-top: 4%;
+  
+} 
+.EmailFirst{
+    display: flex; 
+    padding-right: 10px;
+    margin-top: 5px;
+    color: #C84545;
+    font-size: 14px;
+    white-space: normal;
+}
+.Login{
+    color: blue;
+   
+}
+.blue{
+   
+    color: blue;
+    position: relative;
+    top: 0.0625em;
+    margin-right: 0.4em;
+}
+
+
